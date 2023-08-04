@@ -1,0 +1,31 @@
+create table student
+(sname varchar(30) not null,
+admne int primary key,
+dob date,
+cls char(2),
+cty varchar(20)
+);
+
+
+create table emp
+(empno integer primary key,
+ename varchar(20),
+job varchar(20),
+hiredate date
+);
+
+
+create table fee
+(admne int,
+fee int,
+month varchar(15)
+);
+
+
+
+create table exam
+(sname varchar(20), 
+admne int,
+per decimal(4,2),
+res varchar(10)
+);
